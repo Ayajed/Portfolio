@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 400px;
+    height: 60px;
+    background-image: url(assets/header.png);
+    background-size: 100% 100%;
+}
+
+#logo{
+    height: 60%;
+    padding-top: 10px;
+}
+
+#title{
+    height: 50%;
+    padding-left: 10px;
+}
+
+#nav-bar{
+    position: relative;
+    display: inline-block;
+    height: 60%;
+    padding: 10px 60px 10px 10px;
+}
+
+#drop p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+#drop p:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+#nav{
+    position: relative;
+    display: inline-block;
+}
+
+#drop{
+    display: none;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    text-align: center;
+    transform: translate(-25%, 0);
+    background-color: whitesmoke;
+    z-index: 1;
+    width: 100px;
+}
+
+#nav:hover #drop{
+    display: block;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-image: url(assets/footer.png);
+    background-size: 100% 100%;
+}
+
+#footer p{
+    padding-top: 10px;
+    color: whitesmoke;
+}
+
+#desc{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 75px;
+    padding-right: 75px;
+    font-size: xx-large;
+  }
+
+#body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1980px;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: relative;
+}
+
+h2{
+    padding-top: 40px;
+    color: white;
+    font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+    font-size: 20pt;
+}
+
+.body-content{
+    padding: 10px;
+}
+
+#regis-box{
+    width: 250px;
+}
+
+#agent{
+    padding-bottom: none;
+}
+
+#twitter{
+    height: 150px;
+}
+
+@media screen and (max-width: 800px){
+    #header{
+        height: 50px;
+    }
+
+    #title{
+        height: 40%;
+        padding-left: 10px;
+        padding-bottom: 1px;
+    }
+    
+    #logo{
+        height: 60%;
+        padding-top: 5px;
+    }
+    
+    #nav-bar{
+        position: relative;
+        display: inline-block;
+        height: 55%;
+        padding: 10px 25px 10px 10px;
+    }
+
+    #drop p{
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: medium;
+    }
+
+    #footer p{
+        padding-top: 5px;
+        font-size: small;
+    }
+
+    #footer {
+        height: 40px;
+    }
+
+    #body{
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%, 0);
+        position: relative;
+    }
+
+    h2{
+        color: white;
+        font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+        font-size: 10pt;
+    }
+
+    .body-content{
+        padding: 40px;
+    }
+
+    #regis-box{
+        width: 150px;
+    }
+
+    #agent{
+        width: 500px;
+        padding-bottom: none;
+    }
+
+    #twitter{
+        height: 70px;
+    }
+}

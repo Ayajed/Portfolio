@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pre-register</title>
+  
+  <link rel="stylesheet" href="register.css">
+</head>
+<body>
+  <div class="regform"><h1>Pre-register</h1>
+  </div>
+  <div class="main">
+    <form action="" onsubmit="validate(); return false;">
+      <!-- Name -->
+      <div id="name">
+        <h2 class="name">NAME</h2>
+        <input class="firstname" id="firstname" type="text" name="first_name"><br>
+        <label class="firstlabel">first name</label>
+        <input class="lastname" id="lastname" type="text" name="last_name">
+        <label class="lastlabel">last name</label>
+      </div>
+
+      <!-- Username -->
+      <h2 class="name">USERNAME</h2>
+      <input class="username" id="username" type="text" name="username">
+
+      <!-- Email -->
+      <h2 class="name">EMAIL</h2>
+      <input class="email" id="email" type="text" name="email">
+
+      <!-- Password -->
+      <h2 class="name">PASSWORD</h2>
+      <input class="password" id="password" type="password" name="password">
+
+      <!-- Button -->
+      <button type="submit">REGISTER</button>
+
+      <div id="message"></div>
+    </form>
+  </div>
+  <script src="./register.js"></script>
+</body>
+</html>

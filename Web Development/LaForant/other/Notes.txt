@@ -1,0 +1,15 @@
+~		LaForant		~
++ Game genre : FPS
++ Will be released on 9 Dec 2021 in Indonesia
++ Still under development
++ Website provide :
+	- Info about the game
+	- Pre-register
++ Create game logo
+(Consider customer segement, shape, and colors. Use Photoshop {CC 2020} and no merged layer)
+
+To do :
+# Website blueprint (Header, navigation, content, and footer)
+# Html file
+# Responsive web with 5 CSS property and jQuery
+# Use Meta viewport tag and media screen rule that will be applied if the screen is below 800px screen.
